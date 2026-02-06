@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="framework"
+           fetch="https://github.com/FrameworkOSS"
+           revision="refs/heads/dev" />
+
+  <remote  name="framework-priv"
+           fetch="ssh://git@github.com/FrameworkOSS"
+           revision="refs/heads/dev" />
+
+  <default remote="framework"
+           revision="refs/heads/dev"
+           sync-j="4" />
+
+  <project path="portal/manifest" name="manifest" />
+
+  <!--<project path="build" name="build">
+    <linkfile src="Makefile" dest="Makefile" />
+  </project>-->
+
+  <project path="portal/engine" name="portal" />
+  <project path="portal/event" name="event" />
+  <project path="portal/feature" name="feature" />
+
+  <project path="apps/examples" name="examples" />
+
+  <project path="features/commands" name="feature_commands" />
+  <project path="features/debugger" name="feature_debugger" />
+  <project path="features/files" name="feature_files" />
+  <project path="features/hellodolly" name="feature_hellodolly" />
+  <project path="features/shell" name="feature_shell" />
+  <project path="features/stdlib" name="feature_stdlib" />
+  <project path="features/telegram" name="feature_telegram" />
+  <project path="features/wires" name="feature_wires" />
+
+</manifest>
