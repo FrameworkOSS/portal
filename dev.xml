@@ -3,7 +3,7 @@
 
   <include name="remotes.xml" />
 
-  <default remote="framework"
+  <default remote="framework-priv"
            revision="refs/heads/dev"
            sync-j="4" />
 
