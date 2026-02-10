@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Clone of this manifest -->
   <project path="portal/manifest" name="manifest" />
 
-  <!--<project path="build" name="build">
-    <linkfile src="Makefile" dest="Makefile" />
-  </project>-->
-
+  <!-- Portal framework -->
   <project path="portal/engine" name="portal" />
   <project path="portal/event" name="event" />
   <project path="portal/feature" name="feature" />
 
+  <!-- FrameworkOSS portal project builder -->
+  <project path="build" name="build">
+    <linkfile src="envsetup.sh" dest="envsetup" />
+  </project>
+
+  <!-- Sample apps to demonstrate the portal -->
   <project path="apps/examples" name="examples" />
 
+  <!-- Sample features for apps to orchestrate -->
   <project path="features/commands" name="feature_commands" />
   <project path="features/debugger" name="feature_debugger" />
   <project path="features/files" name="feature_files" />
