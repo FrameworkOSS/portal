@@ -8,6 +8,7 @@
   <project path="portal/engine" name="portal" />
   <project path="portal/event" name="event" />
   <project path="portal/feature" name="feature" />
+  <project path="portal/wire" name="wire" />
 
   <!-- FrameworkOSS portal project builder -->
   <project path="build" name="build">
