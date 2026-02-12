@@ -2,10 +2,10 @@
 <manifest>
 
   <!-- Clone of this manifest -->
-  <project path="portal/manifest" name="manifest" />
+  <project path="portal/manifest" name="portal" />
 
   <!-- Portal framework -->
-  <project path="portal/engine" name="portal" />
+  <project path="portal/engine" name="feature_portal" />
   <project path="portal/event" name="event" />
   <project path="portal/feature" name="feature" />
   <project path="portal/wire" name="wire" />
