@@ -12,7 +12,7 @@
 
   <!-- FrameworkOSS portal project builder -->
   <project path="build" name="build">
-    <linkfile src="envsetup.sh" dest="envsetup" />
+    <linkfile src="envsetup" dest="envsetup" />
   </project>
 
   <!-- Sample apps to demonstrate the portal -->
